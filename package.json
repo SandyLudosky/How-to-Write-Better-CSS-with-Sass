@@ -1,0 +1,17 @@
+{
+  "name": "ecrire-du-meilleur-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx sass --watch src/scss/main.scss src/main.css",
+    "start": "live-server --watch=src/ --port=3000 --open=public/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.3.0",
+    "live-server": "^1.2.2"
+  }
+}
